@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Homebuilder</string>
+    <string name="textview">TextView</string>
+    <string name="find_one">Find One</string>
+    <string name="search_now">Search now</string>
+    <string name="choose_your_city">Choose Your City</string>
+    <string name="choose_your_contractor">CHOOSE YOUR CONTRACTOR</string>
+    <string name="available_contractors">Available Contractors</string>
+    <string name="send_them_a_message">Send them a message</string>
+    <string name="send_them_a_message_or_just_call">Send them a message or... just call</string>
+</resources>

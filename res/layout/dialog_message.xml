@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F2431"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="@string/send_them_a_message_or_just_call"
+        android:textColor="#ffffffff" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        app:backgroundTint="@android:color/holo_green_dark"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="279dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:text="SEND MESSAGE"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>
